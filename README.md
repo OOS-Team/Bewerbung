@@ -2,10 +2,10 @@
 Auflistung von Python und R Scripten aus Uni und Privatem.
 
 
-##Python
+## Python
 
 
-##R
+## R
 
 - sterberateCovid 
 > In diesem Code werden einige Daten für COVID-19 geladen und vorbereitet. Danach werden drei verschiedene Modelle erstellt und trainiert, um das Sterberisiko von COVID-19-Patienten zu prognostizieren.
