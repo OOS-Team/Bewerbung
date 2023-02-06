@@ -11,6 +11,14 @@ Auflistung von Python und R Scripten aus Uni und Privatem.
 
 >Schließlich trainiert der Code einen Multinomial-Naive-Bayes-Klassifikator auf den Trainingsdaten und bewertet seine Leistung auf den Testdaten anhand der Genauigkeitsbewertung. Der Code gibt auch die prädiktivsten Adjektive aus, geordnet nach ihren Koeffizienten im Klassifikator.
 
+- preisprognoseDiamanten
+>Dieser Code nutzt das Python-Modul pandas um eine CSV-Datei mit Diamanten-Daten zu lesen. Das Modell soll eine Preisprognose für Diamanten generieren. 
+
+>Die Daten werden in ein Pandas-DataFrame gespeichert und mit df.head() wird eine Übersicht der ersten fünf Datensätze angezeigt. Als nächstes werden zwei Arrays mit den Werten für "carat" und "price" aus dem DataFrame extrahiert. Diese werden für eine lineare Regression genutzt. Mit dem Modul train_test_split werden die Daten in Trainings- und Testdaten aufgeteilt. Hierbei werden 75% der Daten für das Training und 25% für das Testen verwendet.
+
+> Das Modul LinearRegression wird genutzt, um ein lineares Regressionsmodell zu erstellen und an den Trainingsdaten anzupassen. Mit model.score wird die Performance des Modells auf den Testdaten gemessen. Der gleiche Prozess wird für die Spalten "x", "y" und "z" wiederholt.
+
+> Im Anschluss werden die Daten mit dem Modul PolynomialFeatures in eine polynomiale Form gebracht, um eine polynomiale Regression ausführen zu können. Auch hier wird ein Regressionsmodell erstellt und an die transformierten Trainingsdaten angepasst, um die Performance auf den transformierten Testdaten zu messen.
 
 ## R
 
