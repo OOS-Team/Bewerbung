@@ -1,7 +1,13 @@
 # Bewerbung
-Auflistung von Python und R Scripten aus Uni und Privatem
+Auflistung von Python und R Scripten aus Uni und Privatem.
 
-- sterberateCovid
+
+##Python
+
+
+##R
+
+- sterberateCovid 
 > In diesem Code werden einige Daten für COVID-19 geladen und vorbereitet. Danach werden drei verschiedene Modelle erstellt und trainiert, um das Sterberisiko von COVID-19-Patienten zu prognostizieren.
 
 >Das erste Modell ist ein einfaches Modell mit festen Multiplikatoren, die von der Altersgruppe abhängen. Dieses Modell wird mit der Library DALEX gewrappt, um es zu visualisieren und zu analysieren.
