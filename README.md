@@ -1,5 +1,4 @@
-# Bewerbung
-Auflistung von ausgewählten Data Science Projekten.
+# Auflistung von ausgewählten Data Science Projekten.
 
 
 ## Python
